@@ -26,6 +26,7 @@ body {
 }
 h2 {
 	font-size: 68px;
+	font-weight: 400;
 }
 p {
 	font-size: 38px;
@@ -107,6 +108,12 @@ p {
 	background: url(../img/hero.jpg) no-repeat center top fixed;
 	-webkit-background-size: cover;
 	background-size: cover;
+}
+.hero-carousel .btn-lg {
+	border-radius: 3px;
+}
+.hero-carousel .btn-default:hover {
+	border-color: #fff;
 }
 .carousel-control.left,
 .carousel-control.right {
