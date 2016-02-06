@@ -20,6 +20,9 @@ body {
 	font-family: "Gotham A", "Gotham B";
 	font-style: normal;	
 	font-weight: 400;
+
+	/*padding-top: 81px;*/
+	min-height: 2000px;
 }
 .navbar-default {
 	padding: 15px 0;
@@ -58,6 +61,9 @@ body {
 	  -ms-transform-origin: 0 50%;
 	  transform-origin: 0 50%;
 	}
+	.navbar-default .navbar-nav>li>a.btn-login:before {
+		display: none;		
+	}
 	.navbar-default .navbar-nav>li>a:focus:before, 
 	.navbar-default .navbar-nav>li>a:hover:before {
 		-webkit-transform: scale(1, 1);
@@ -88,6 +94,29 @@ body {
 	position: absolute;
 	left: 15px;
 }
+/* Carousel */
+.hero-carousel {
+	min-height: 500px;
+	background-image: url(../img/hero.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.carousel-control.left,
+.carousel-control.right {
+	background-image: none;
+}
+.hero {
+	margin-top: 81px;
+	padding: 50px 20px;
+	color: #fff;
+	text-align: center;
+}
+
+
+
+
+
+
 
 
 /* Custom, iPhone Retina */
