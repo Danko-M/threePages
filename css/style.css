@@ -114,6 +114,7 @@ p {
 }
 .hero-carousel .btn-default:hover {
 	border-color: #a5795e;
+  background: #C2B797;
 }
 .carousel-control.left,
 .carousel-control.right {
