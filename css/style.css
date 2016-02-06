@@ -190,9 +190,10 @@ h3 {
 .chalange-2,
 .chalange-3,
 .chalange-4 {
+	max-width: 580px;
 	min-height: 390px;
 	padding: 50px;
-	margin-bottom: 30px;
+	margin: 10px auto;
 	font-size: 16px;
 	color: #fff;
 	border: 5px solid #fff;
@@ -210,6 +211,15 @@ h3 {
 }
 .chalange-4 {
 	background: url(../img/person-4.jpg) center center no-repeat;
+}
+
+@media only screen and (min-width: 768px) {
+	.chalange-1,
+	.chalange-2,
+	.chalange-3,
+	.chalange-4 {
+		margin: 0 -10px 10px -10px;
+	}	
 }
 @media only screen and (min-width: 1200px) {
 	.chalange-1,
