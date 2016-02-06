@@ -29,7 +29,9 @@ h2 {
 	font-weight: 400;
 }
 h3 {
-	font-size: 40px;
+	font-size: 30px;
+	margin-top: 70px;
+	margin-bottom: 70px;
 }
 /*h4 {
 	font-size: 26px;
@@ -100,6 +102,9 @@ h3 {
   color: #fff;
 }
 @media only screen and (min-width: 992px) {
+	h3 {
+		font-size: 40px;
+	}
 	.navbar-default .navbar-nav>li>a {
 	  font-size: 20px;
 	}	
@@ -148,7 +153,6 @@ h3 {
 .section-01 {
 	position: relative;
 	min-height: 430px;
-	padding-top: 50px;
 	text-align: center;
 	font-size: 26px;
 }
@@ -180,6 +184,7 @@ h3 {
 /* We understand your shopping challenges - section */
 .section-02 {
 	background: #efefef;
+	padding-bottom: 50px;
 }
 .chalange-1,
 .chalange-2,
@@ -188,14 +193,14 @@ h3 {
 	min-height: 390px;
 	padding: 50px;
 	margin-bottom: 30px;
-	font-size: 24px;
+	font-size: 16px;
 	color: #fff;
 	border: 5px solid #fff;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
 .chalange-1 {
-	background: url(../img/person-1.jpg) center center no-repeat;
+	background: url(../img/person-1.jpg) center top no-repeat;
 }
 .chalange-2 {
 	background: url(../img/person-2.jpg) center center no-repeat;
@@ -205,6 +210,14 @@ h3 {
 }
 .chalange-4 {
 	background: url(../img/person-4.jpg) center center no-repeat;
+}
+@media only screen and (min-width: 1200px) {
+	.chalange-1,
+	.chalange-2,
+	.chalange-3,
+	.chalange-4 {
+		font-size: 24px;
+	}
 }
 
 
