@@ -192,7 +192,7 @@ h3 {
 .chalange-4 {
 	max-width: 580px;
 	min-height: 390px;
-	padding: 50px;
+	padding: 50px 50px 80px 50px;
 	margin: 10px auto;
 	font-size: 16px;
 	color: #fff;
@@ -214,7 +214,12 @@ h3 {
 .chalange-4 {
 	background-image: url(../img/person-4.jpg);
 }
-
+.client-name {
+	position: absolute;
+	bottom: 50px;
+	left: 0;
+	right: 0;
+}
 @media only screen and (min-width: 768px) {
 	.chalange-1,
 	.chalange-2,
