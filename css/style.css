@@ -144,7 +144,7 @@ h3 {
 	font-size: 38px;
 }
 
-/* what we do section*/
+/* what we do - section*/
 .section-01 {
 	position: relative;
 	min-height: 430px;
@@ -167,8 +167,8 @@ h3 {
 }
 @media only screen and (min-width: 1600px) {
 	.section-01 {
-		padding-left: 200px;
-		padding-right: 200px;
+		padding-left: 250px;
+		padding-right: 250px;
 	}
 	.tie,
 	.shoes {
@@ -177,6 +177,35 @@ h3 {
 }
 
 
+/* We understand your shopping challenges - section */
+.section-02 {
+	background: #efefef;
+}
+.chalange-1,
+.chalange-2,
+.chalange-3,
+.chalange-4 {
+	min-height: 390px;
+	padding: 50px;
+	margin-bottom: 30px;
+	font-size: 24px;
+	color: #fff;
+	border: 5px solid #fff;
+	-webkit-background-size: cover;
+	background-size: cover;
+}
+.chalange-1 {
+	background: url(../img/person-1.jpg) center center no-repeat;
+}
+.chalange-2 {
+	background: url(../img/person-2.jpg) center center no-repeat;
+}
+.chalange-3 {
+	background: url(../img/person-3.jpg) center center no-repeat;
+}
+.chalange-4 {
+	background: url(../img/person-4.jpg) center center no-repeat;
+}
 
 
 
