@@ -197,20 +197,22 @@ h3 {
 	font-size: 16px;
 	color: #fff;
 	border: 5px solid #fff;
+	background-repeat: no-repeat;
+	background-position: center;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
 .chalange-1 {
-	background: url(../img/person-1.jpg) center top no-repeat;
+	background-image: url(../img/person-1.jpg);
 }
 .chalange-2 {
-	background: url(../img/person-2.jpg) center center no-repeat;
+	background-image: url(../img/person-2.jpg);
 }
 .chalange-3 {
-	background: url(../img/person-3.jpg) center center no-repeat;
+	background-image: url(../img/person-3.jpg);
 }
 .chalange-4 {
-	background: url(../img/person-4.jpg) center center no-repeat;
+	background-image: url(../img/person-4.jpg);
 }
 
 @media only screen and (min-width: 768px) {
