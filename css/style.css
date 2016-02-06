@@ -1,4 +1,12 @@
-
+.new-font {
+  max-width: 600px;
+  margin: 30px auto;
+  font-size: 40px;
+    
+	font-family: "Gotham A", "Gotham B";
+	font-style: normal;
+	font-weight: 400;
+}
 
 
 /* Custom, iPhone Retina */
