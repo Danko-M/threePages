@@ -28,9 +28,12 @@ h2 {
 	font-size: 68px;
 	font-weight: 400;
 }
-p {
-	font-size: 38px;
+h3 {
+	font-size: 40px;
 }
+/*h4 {
+	font-size: 26px;
+}*/
 .navbar-default {
 	padding: 15px 0;
 	background: rgba(0,0,0,.6);
@@ -137,6 +140,48 @@ p {
 	color: #fff;
 	text-align: center;
 }
+.hero p {
+	font-size: 38px;
+}
+
+/* what we do section*/
+.section-01 {
+	position: relative;
+	text-align: center;
+	font-size: 26px;
+}
+.tie,
+.shoes {
+	position: absolute;
+	top: 0;
+	display: none;
+	z-index: -1;
+}
+.tie {
+	left: 0;
+}
+.shoes {
+	right: -200px;
+}
+@media only screen and (min-width: 992px) {
+	.section-01 {
+		padding-left: 200px;
+		padding-right: 200px;
+	}
+	.tie,
+	.shoes {
+		display: block;
+	}
+}
+
+
+
+
+
+
+
+
+
 
 
 
