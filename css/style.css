@@ -1,11 +1,57 @@
-.new-font {
-  max-width: 600px;
-  margin: 30px auto;
-  font-size: 40px;
-    
+/*Fonts:
+
+Gotham Book:
+font-family: "Gotham A", "Gotham B";
+font-style: normal;
+font-weight: 400;
+
+Gotham Medium:
+font-family: "Gotham A", "Gotham B";
+font-style: normal;
+font-weight: 500;
+
+Gotham Bold:
+font-family: "Gotham A", "Gotham B";
+font-style: normal;
+font-weight: 700;
+*/
+
+body {
 	font-family: "Gotham A", "Gotham B";
-	font-style: normal;
+	font-style: normal;	
 	font-weight: 400;
+}
+.navbar-default {
+	padding: 15px 0;
+	background: rgba(0,0,0,.6);
+}
+.navbar-default .navbar-nav>li>a {
+  color: #fff;
+}
+.navbar-collapse {
+	border-top: none;
+	-webkit-box-shadow: none; 
+  box-shadow: none; 
+}
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+  color: #333;
+  background-color: #fff;
+}
+.logo {
+	position: absolute;
+	left: 50%;
+
+	width: 281px;
+	height: 52px;
+	margin-left: -140px;
+	background-image: url(../img/logo.png);
+}
+.logo.hidden-xs {
+
+}
+.logo.visible-xs-block {
+	margin-left: auto;
+	left: 15px;
 }
 
 
