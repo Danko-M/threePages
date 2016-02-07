@@ -153,6 +153,23 @@ h3 {
 .carousel-control.right {
 	background-image: none;
 }
+.carousel-control img {
+  position: absolute;
+  top: 80%;
+  z-index: 5;
+  margin-top: -27px;
+}
+@media only screen and (min-width: 900px){
+	.carousel-control img {
+		top: 50%;
+	}
+}
+.carousel-control.left img {
+	left: 20px;
+}
+.carousel-control.right img {
+	right: 20px;
+}
 .hero {
 	margin-top: 81px;
 	padding: 260px 20px;
