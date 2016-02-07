@@ -337,6 +337,7 @@ box-social*/
 	font-weight: 500;
 }
 .section-04 p {
+	font-size: 20px;
 	padding-bottom: 50px;
 }
 .btn-dark {
@@ -344,6 +345,9 @@ box-social*/
 	color: #fff;
 	font-size: 22px;
 	font-weight: 500;
+}
+.btn-dark:hover {
+	color: #F9B993;
 }
 
 
