@@ -326,8 +326,30 @@ box-social*/
 	background: url(../img/pattern.png);
 	margin-bottom: 20px;
 }
+.section-04 .fa{
+	font-size: 46px;
+	color: #fff;
+}
+.sec-04-titles {
+	margin-top: 40px;
+	margin-bottom: 20px;
+	font-size: 26px;
+	font-weight: 500;
+}
+.section-04 p {
+	padding-bottom: 50px;
+}
+.btn-dark {
+	background-color: #000;
+	color: #fff;
+	font-size: 22px;
+	font-weight: 500;
+}
 
-/*  - section*/
+
+
+
+/* as seen in - section*/
 .section-05 {
 	background-color: #efefef;
 	padding-bottom: 80px;
@@ -381,8 +403,12 @@ box-social*/
 }
 .social .fa {
 	font-size: 22px;
+	text-shadow: 2px 2px 8px #9c725c;
+	transition: text-shadow 0.2s ease-in-out;
 }
-
+.social a:hover .fa {
+	text-shadow: 2px 2px 8px #2b3134;
+}
 
 /* Custom, iPhone Retina */
 
