@@ -61,6 +61,20 @@ h3 {
 	color: #595959 !important;
 	background: #fff;	
 }
+.navbar-toggle {
+	padding: 14px 10px;
+	border-radius: 50%;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+	background-color: transparent;
+	border-color: #a5795e;
+}
+.navbar-default .navbar-toggle:focus span, .navbar-default .navbar-toggle:hover span {
+	background-color: #a5795e;
+}
 @media only screen and (min-width: 768px) {
 	.navbar-collapse {
 		text-align: center;
@@ -186,11 +200,11 @@ h3 {
 	background: #efefef;
 	padding-bottom: 50px;
 }
-.chalange-1,
-.chalange-2,
-.chalange-3,
-.chalange-4 {
-	max-width: 580px;
+.challenge-1,
+.challenge-2,
+.challenge-3,
+.challenge-4 {
+	/*max-width: 580px;*/
 	min-height: 390px;
 	padding: 50px 50px 80px 50px;
 	margin: 10px auto;
@@ -202,17 +216,28 @@ h3 {
 	-webkit-background-size: cover;
 	background-size: cover;
 }
-.chalange-1 {
+.challenge-1 {
 	background-image: url(../img/person-1.jpg);
 }
-.chalange-2 {
+.challenge-2 {
 	background-image: url(../img/person-2.jpg);
 }
-.chalange-3 {
+.challenge-3 {
 	background-image: url(../img/person-3.jpg);
 }
-.chalange-4 {
+.challenge-4 {
 	background-image: url(../img/person-4.jpg);
+}
+.challenge-1 p,
+.challenge-2 p,
+.challenge-3 p,
+.challenge-4 p {
+  position: absolute;
+  top: 60%;
+	left: 10%;
+	width: 80%;
+
+  transform: translateY(-50%);
 }
 .client-name {
 	position: absolute;
@@ -221,18 +246,18 @@ h3 {
 	right: 0;
 }
 @media only screen and (min-width: 768px) {
-	.chalange-1,
-	.chalange-2,
-	.chalange-3,
-	.chalange-4 {
+	.challenge-1,
+	.challenge-2,
+	.challenge-3,
+	.challenge-4 {
 		margin: 0 -10px 10px -10px;
 	}	
 }
 @media only screen and (min-width: 1200px) {
-	.chalange-1,
-	.chalange-2,
-	.chalange-3,
-	.chalange-4 {
+	.challenge-1,
+	.challenge-2,
+	.challenge-3,
+	.challenge-4 {
 		font-size: 24px;
 	}
 }
