@@ -237,7 +237,7 @@ h3 {
 .challenge-3 p,
 .challenge-4 p {
   position: absolute;
-  top: 60%;
+  top: 55%;
 	left: 10%;
 	width: 80%;
 
@@ -262,7 +262,7 @@ h3 {
 	.challenge-2,
 	.challenge-3,
 	.challenge-4 {
-		font-size: 24px;
+		font-size: 23px;
 	}
 }
 
@@ -276,10 +276,44 @@ h3 {
 .section-03-header {
 	text-align: center;
 	background: rgba(255,255,255,.9);
-	margin-bottom: 100px;
+	/*margin-bottom: 100px;*/
+}
+.section-03-content {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	text-align: center;
+}
+.section-03 .col-sm-6 {
+	min-height: 310px;
+	color: #fff;
+}
+.box-efficient {
+	background-color: rgba(59,108,114,0.85);
+}
+.box-guided {
+	background-color: rgba(239,178,142,0.85);
+}
+.box-personalized {
+	background-image: url(../img/temp-bg.png);
+}
+.box-private {
+	background-color: rgba(27,26,31,0.85);
+}
+.box-inclusive {
+	background-color: rgba(242,242,242,0.85);
+}
+.box-social {
+	background-color: rgba(126,125,127,0.85);
 }
 
 
+/*
+box-efficient
+box-guided
+box-personalized
+box-private
+box-inclusive
+box-social*/
 
 
 
