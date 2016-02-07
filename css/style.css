@@ -349,6 +349,24 @@ box-social*/
 	}
 }
 
+/* footer */
+.footer {
+	text-align: center;
+	padding-top: 75px;
+	padding-bottom: 90px;
+	background-color: #2b3134;
+}
+.footer a {
+	color: #7e858a;
+	font-size: 20px;
+}
+.footer .fa {
+	font-size: 34px;
+	color: #fff;
+} 
+
+
+
 
 /* Custom, iPhone Retina */
 
