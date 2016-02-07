@@ -356,6 +356,9 @@ box-social*/
 	padding-bottom: 90px;
 	background-color: #2b3134;
 }
+.footer .col-sm-4 {
+	margin-bottom: 20px;
+}
 .footer a {
 	color: #7e858a;
 	font-size: 20px;
@@ -364,8 +367,21 @@ box-social*/
 	font-size: 34px;
 	color: #fff;
 } 
-
-
+.social {
+	margin-top: 100px;
+	margin-bottom: 40px;
+}
+.social a {
+	display: inline-block;
+  width: 38px;
+	margin-right: 15px;
+  line-height: 38px;
+	border-radius: 50%;
+	background-color: #f9b993;
+}
+.social .fa {
+	font-size: 22px;
+}
 
 
 /* Custom, iPhone Retina */
