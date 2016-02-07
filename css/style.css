@@ -276,7 +276,6 @@ h3 {
 .section-03-header {
 	text-align: center;
 	background: rgba(255,255,255,.9);
-	/*margin-bottom: 100px;*/
 }
 .section-03-content {
 	padding-top: 100px;
@@ -315,12 +314,40 @@ box-private
 box-inclusive
 box-social*/
 
+/* Find out more - section */
 
+.section-04 .row {
+	margin-left: -30px;
+	margin-right: -30px;
+	padding-bottom: 40px;
+}
+.section-04-box {
+	padding: 60px 100px;
+	background: url(../img/pattern.png);
+	margin-bottom: 20px;
+}
 
-
-
-
-
+/*  - section*/
+.section-05 {
+	background-color: #efefef;
+	padding-bottom: 80px;
+}
+.col-sm-1-5 {
+	display: block;
+	padding-right: 15px;
+  padding-left: 15px;
+}
+@media only screen and (min-width: 768px) {
+	.col-sm-1-5 {
+		width: 20%;
+		float: left;
+	}
+	.col-sm-1-5 img {
+		display: block;
+    max-width: 100%;
+    height: auto;
+	}
+}
 
 
 /* Custom, iPhone Retina */
