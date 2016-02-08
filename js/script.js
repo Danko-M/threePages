@@ -18,7 +18,7 @@ $(function(){
 		// $(this).parent('p').toggleClass('hide').siblings('a').toggleClass('hide');
 		// $(this).parent('p').toggle(300).siblings('a').toggleClass('hide');
 		$(this).parent('p').slideToggle(300, function(){
-			$(this).siblings('a').show()
+			$(this).siblings('a').show(300);
 			// console.log($(this));
 		});
 	});
