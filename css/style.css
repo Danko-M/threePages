@@ -300,7 +300,7 @@ h3 {
 	text-align: center;
 }
 .section-03 .col-sm-6 {
-	min-height: 360px;
+	min-height: 370px;
 	padding: 40px;
 	color: #fff;
 }
@@ -356,6 +356,13 @@ h3 {
 .section-03 .box-inclusive {
 	color: #000;
 }
+
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+	.section-03 .col-sm-6 {
+		min-height: 400px;
+	}
+}
+
 /*.expand:hover {
 }*/
 
