@@ -7,7 +7,7 @@ $(function(){
 		/* Act on the event */
 		// console.log('abc');
 		// $(this).toggleClass('hide').next('p').toggle(300);
-		$(this).hide().next('p').toggle(300);
+		$(this).hide().next('p').slideToggle(300);
 		// $(this).fadeOut().next('p').slideToggle(300);
 	});
 
