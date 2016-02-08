@@ -300,7 +300,7 @@ h3 {
 	text-align: center;
 }
 .section-03 .col-sm-6 {
-	min-height: 310px;
+	min-height: 360px;
 	padding: 40px;
 	color: #fff;
 }
@@ -329,21 +329,29 @@ h3 {
 }
 .section-03 p {
 	font-size: 20px;
+	display: none;
 }
 .section-03 a {
   display: inline-block;
-	font-size: 22px;
-	color: #fff;
+	font-size: 30px;
+	color: inherit;
 	font-weight: 500;
 	
 }
-.section-03 a:hover {
+.section-03 a:hover,
+.section-03 a:focus {
 	text-decoration: none;
-	color: #fff;	
+	color: inherit;	
 }
 .expand {
 	width: 33px;
-	border: 1px solid #fff;
+	line-height: 1.05em;
+	border: 1px solid;
+}
+
+.section-03 .box-guided,
+.section-03 .box-inclusive {
+	color: #000;
 }
 /*.expand:hover {
 }*/
