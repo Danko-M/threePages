@@ -9,6 +9,9 @@ $(function(){
 		// $(this).toggleClass('hide').next('p').toggle(300);
 		$(this).hide().next('p').slideToggle(300);
 		// $(this).fadeOut().next('p').slideToggle(300);
+		$(this).siblings('.sec-01-title').animate({ 
+			marginTop: '20px' 
+		}, 300);
 	});
 
 	$($collapseBtn).on('click',  function(event) {
@@ -19,7 +22,9 @@ $(function(){
 		// $(this).parent('p').toggle(300).siblings('a').toggleClass('hide');
 		$(this).parent('p').slideToggle(300, function(){
 			$(this).siblings('a').show(300);
-			// console.log($(this));
+			$(this).siblings('.sec-01-title').animate({ 
+			marginTop: '50px' 
+		}, 300);
 		});
 	});
 });
