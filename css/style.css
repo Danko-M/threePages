@@ -336,7 +336,7 @@ h3 {
 	font-size: 20px;
 	display: none;
 }
-.section-03 p a {
+.hideP {
 	margin-top: 20px;
 }
 .section-03 a {
@@ -351,7 +351,7 @@ h3 {
 	text-decoration: none;
 	color: inherit;	
 }
-.expand {
+.showP {
 	width: 37px;
   border: 3px solid;
   line-height: 1.05em;
