@@ -301,6 +301,7 @@ h3 {
 }
 .section-03 .col-sm-6 {
 	min-height: 310px;
+	padding: 40px;
 	color: #fff;
 }
 .box-efficient {
@@ -310,7 +311,7 @@ h3 {
 	background-color: rgba(239,178,142,0.85);
 }
 .box-personalized {
-	background-image: url(../img/temp-bg.png);
+	background: url(../img/temp-bg.png);
 }
 .box-private {
 	background-color: rgba(27,26,31,0.85);
@@ -321,6 +322,39 @@ h3 {
 .box-social {
 	background-color: rgba(126,125,127,0.85);
 }
+.sec-01-title {
+  margin-top: 50px;
+	margin-bottom: 40px;
+	font-size: 30px;
+}
+.section-03 p {
+	font-size: 20px;
+}
+.section-03 a {
+  display: inline-block;
+	font-size: 22px;
+	color: #fff;
+	font-weight: 500;
+	
+}
+.section-03 a:hover {
+	text-decoration: none;
+	color: #fff;	
+}
+.expand {
+	width: 33px;
+	border: 1px solid #fff;
+}
+/*.expand:hover {
+}*/
+
+
+
+
+
+
+
+
 
 
 /*
