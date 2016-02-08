@@ -326,10 +326,11 @@ h3 {
 .box-social {
 	background-color: rgba(126,125,127,0.85);
 }
-.sec-01-title {
+.sec-03-title {
   margin-top: 50px;
 	margin-bottom: 40px;
 	font-size: 30px;
+	font-weight: 500;
 }
 .section-03 p {
 	font-size: 20px;
