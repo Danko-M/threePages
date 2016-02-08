@@ -367,26 +367,6 @@ h3 {
 	}
 }
 
-/*.expand:hover {
-}*/
-
-
-
-
-
-
-
-
-
-
-/*
-box-efficient
-box-guided
-box-personalized
-box-private
-box-inclusive
-box-social*/
-
 /* Find out more - section */
 
 .section-04 .row {
@@ -398,6 +378,16 @@ box-social*/
 	padding: 60px 100px;
 	background: url(../img/pattern.png);
 	margin-bottom: 20px;
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+	.section-04-box {
+		padding: 60px 40px;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 1199px) {
+	.section-04-box {
+		min-height: 475px;
+	}
 }
 .section-04 .fa{
 	font-size: 46px;
