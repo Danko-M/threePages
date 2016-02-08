@@ -265,6 +265,11 @@ h3 {
 	bottom: 50px;
 	left: 0;
 	right: 0;
+	font-size: 18px;
+	font-weight: 500;
+}
+.client-name span {
+	color: #f9b993;
 }
 @media only screen and (min-width: 768px) {
 	.challenge-1,
