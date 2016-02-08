@@ -386,7 +386,7 @@ h3 {
 }
 @media only screen and (min-width: 768px) and (max-width: 1199px) {
 	.section-04-box {
-		min-height: 475px;
+		min-height: 490px;
 	}
 }
 .section-04 .fa{
@@ -412,7 +412,12 @@ h3 {
 .btn-dark:hover {
 	color: #F9B993;
 }
-
+.section-04 .btn-dark {
+	position: absolute;
+  bottom: 60px;
+  left: 50%;
+  margin-left: -75px;	
+}
 
 
 
