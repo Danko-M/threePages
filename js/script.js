@@ -9,7 +9,7 @@ $(function(){
 		// $(this).toggleClass('hide').next('p').toggle(300);
 		$(this).hide().next('p').slideToggle(300);
 		// $(this).fadeOut().next('p').slideToggle(300);
-		$(this).siblings('.sec-01-title').animate({ 
+		$(this).siblings('.sec-03-title').animate({ 
 			marginTop: '20px' 
 		}, 300);
 	});
@@ -22,7 +22,7 @@ $(function(){
 		// $(this).parent('p').toggle(300).siblings('a').toggleClass('hide');
 		$(this).parent('p').slideToggle(300, function(){
 			$(this).siblings('a').show(300);
-			$(this).siblings('.sec-01-title').animate({ 
+			$(this).siblings('.sec-03-title').animate({ 
 			marginTop: '50px' 
 		}, 300);
 		});
