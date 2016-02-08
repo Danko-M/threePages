@@ -262,11 +262,10 @@ h3 {
 }
 .client-name {
 	position: absolute;
-	bottom: 50px;
+	bottom: 60px;
 	left: 0;
 	right: 0;
 	font-size: 18px;
-	font-weight: 500;
 }
 .client-name span {
 	color: #f9b993;
