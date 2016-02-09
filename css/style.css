@@ -58,8 +58,8 @@ h3 {
   left: 15px;
   top: 5px;
 	display: inline-block;
-	padding-top: 10px;
-  padding-bottom: 10px;
+/*	padding-top: 10px;
+  padding-bottom: 10px;*/
   color: #000;
 }
 .navbar-default .navbar-nav>li>a.btn-default:before {
@@ -133,7 +133,7 @@ h3 {
 	-webkit-background-size: cover;
 	background-size: cover;
 }
-.btn-lg {
+.btn-default {
 	border-radius: 3px;
 }
 .btn-default:hover {
