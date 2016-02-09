@@ -56,12 +56,17 @@ h3 {
 }
 .navbar-default .navbar-nav>li>a.btn-default {
   left: 15px;
-  top: 5px;
+  top: 6px;
 	display: inline-block;
 	padding-top: 7.5px;
   padding-bottom: 7.5px;
   color: #000;
 }
+.navbar-default .navbar-nav>li>a.btn-default:hover{
+  color: #333;
+  background-color: #e6e6e6;
+  border-color: #adadad;
+ }
 .navbar-default .navbar-nav>li>a.btn-default:before {
 	display: none;
 }
@@ -137,8 +142,8 @@ h3 {
 	border-radius: 3px;
 }
 .btn-default:hover {
-	border-color: #a5795e;
-  background: #C2B797;
+/*	border-color: #a5795e;
+  background: #C2B797;*/
 }
 .carousel-control.left,
 .carousel-control.right {
