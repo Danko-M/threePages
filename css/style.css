@@ -57,7 +57,8 @@ h3 {
 }
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:active {
+.navbar-default .navbar-toggle:active,
+.navbar-default .navbar-toggle:visited {
 	background-color: transparent;
 }
 .navbar-default .navbar-toggle.collapsed .icon-bar {
