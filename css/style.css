@@ -47,6 +47,7 @@ h3 {
 	background-color: transparent;
 	border-color: #a5795e;
 }
+.navbar-default .navbar-toggle.collapsed,
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:active {
 	background-color: transparent;
