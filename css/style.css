@@ -1,3 +1,13 @@
+/* 
+Author: Danko Milutinovic
+Desctiption: stylesheet for www.stylekey.com
+Contact:  
+        http://danko-m.github.io/ 
+        dankomilutinovic@gmail.com 
+        skype: danko.milutinovic
+        https://rs.linkedin.com/pub/danko-milutinovic/a3/675/778         
+*/
+
 body {
 	font-family: "Gotham A", "Gotham B";
 	font-style: normal;	
@@ -106,8 +116,12 @@ h3 {
 	height: 52px;
 	background-image: url(../img/logo.png);
 }
-.logo.hidden-xs {
-
+@media only screen and (min-width: 992px) {
+	.logo.hidden-xs {
+		position: absolute;
+		left: 50%;
+		margin-left: -140px;
+	}
 }
 .logo.visible-xs-block {
 	position: absolute;

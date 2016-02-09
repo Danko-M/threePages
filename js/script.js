@@ -1,3 +1,13 @@
+/* 
+Author: Danko Milutinovic
+Desctiption: script for www.stylekey.com
+Contact:  
+        http://danko-m.github.io/
+        dankomilutinovic@gmail.com 
+        skype: danko.milutinovic
+        https://rs.linkedin.com/pub/danko-milutinovic/a3/675/778         
+*/
+
 $(function(){ 
 
 	// homepage, section 'Shop smarter' [+] buttons animation
@@ -17,8 +27,8 @@ $(function(){
 		$(this).parent('p').slideToggle(300, function(){
 			$(this).siblings('a').show(300);
 			$(this).siblings('div').animate({ 
-			marginTop: '50px' 
-		}, 300);
+				marginTop: '50px' 
+			}, 300);
 		});
 	});
 
