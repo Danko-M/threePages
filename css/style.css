@@ -462,15 +462,17 @@ h3 {
 	margin-right: 15px;
   line-height: 38px;
 	border-radius: 50%;
+	background-color: #3c4144;
+}
+.social a:hover {
 	background-color: #f9b993;
 }
 .social .fa {
 	font-size: 22px;
-	text-shadow: 2px 2px 8px #9c725c;
-	transition: text-shadow 0.2s ease-in-out;
+	color: #71787e;
 }
 .social a:hover .fa {
-	text-shadow: 2px 2px 8px #2b3134;
+	color: #fff;
 }
 
 /* Custom, iPhone Retina */
