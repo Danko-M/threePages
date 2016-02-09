@@ -51,7 +51,7 @@ h3 {
 .navbar-default .navbar-toggle:active {
 	background-color: transparent;
 }
-.navbar-default .navbar-toggle:hover span {
+.navbar-default .navbar-toggle.collapsed span {
 	background-color: #a5795e;
 }
 .navbar-default .navbar-nav>li>a.btn-default {
