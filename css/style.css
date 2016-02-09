@@ -45,7 +45,7 @@ h3 {
 .navbar-default .navbar-toggle {
 	padding: 14px 10px;
 	border-radius: 50%;
-	background-color: #a5795e;
+	/*background-color: #a5795e;*/
 	border-color: #a5795e;
 }
 .navbar-default .navbar-toggle .icon-bar {
