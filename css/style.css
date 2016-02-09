@@ -36,23 +36,25 @@ h3 {
 	-webkit-box-shadow: none; 
   box-shadow: none; 
 }
-.navbar-toggle {
+.navbar-default .navbar-toggle {
 	padding: 14px 10px;
 	border-radius: 50%;
+	background-color: #a5795e;
+	border-color: #a5795e;
 }
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: #fff;
+	background-color: #a5795e;
 }
 .navbar-default .navbar-toggle.collapsed {
 	background-color: transparent;
-	border-color: #a5795e;
+	border-color: #fff;
 }
 .navbar-default .navbar-toggle:focus,
 .navbar-default .navbar-toggle:active {
 	background-color: transparent;
 }
-.navbar-default .navbar-toggle.collapsed span {
-	background-color: #a5795e;
+.navbar-default .navbar-toggle.collapsed .icon-bar {
+	background-color: #fff;
 }
 .navbar-default .navbar-nav>li>a.btn-default {
   left: 15px;
