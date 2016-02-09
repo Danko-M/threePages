@@ -36,18 +36,6 @@ h3 {
 	-webkit-box-shadow: none; 
   box-shadow: none; 
 }
-.navbar-nav li a.btn-login {
-	top: 5px;
-  left: 15px;
-	display: inline-block;
-	padding: 10px;
-	border-radius: 0;
-}
-.navbar-nav li a.btn-login,
-.navbar-nav li a.btn-login:hover {
-	color: #595959 !important;
-	background: #fff;	
-}
 .navbar-toggle {
 	padding: 14px 10px;
 	border-radius: 50%;
@@ -55,12 +43,27 @@ h3 {
 .navbar-default .navbar-toggle .icon-bar {
 	background-color: #fff;
 }
-.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover {
+.navbar-default .navbar-toggle:hover {
 	background-color: transparent;
 	border-color: #a5795e;
 }
-.navbar-default .navbar-toggle:focus span, .navbar-default .navbar-toggle:hover span {
+.navbar-default .navbar-toggle:focus {
+	background-color: transparent;
+	
+}
+.navbar-default .navbar-toggle:hover span {
 	background-color: #a5795e;
+}
+.navbar-default .navbar-nav>li>a.btn-default {
+  left: 15px;
+  top: 5px;
+	display: inline-block;
+	padding-top: 10px;
+  padding-bottom: 10px;
+  color: #000;
+}
+.navbar-default .navbar-nav>li>a.btn-default:before {
+	display: none;
 }
 @media only screen and (min-width: 768px) {
 	.navbar-collapse {
@@ -86,9 +89,6 @@ h3 {
 	  -webkit-transform-origin: 0 50%;
 	  -ms-transform-origin: 0 50%;
 	  transform-origin: 0 50%;
-	}
-	.navbar-default .navbar-nav>li>a.btn-login:before {
-		display: none;		
 	}
 	.navbar-default .navbar-nav>li>a:focus:before, 
 	.navbar-default .navbar-nav>li>a:hover:before {
@@ -129,14 +129,14 @@ h3 {
 }
 /* CAROUSEL - HERO */
 .hero-carousel {
-	background: url(../img/hero.jpg) no-repeat center top fixed;
+	background: url(../img/hero.jpg) no-repeat center top scroll;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
-.hero-carousel .btn-lg {
+.btn-lg {
 	border-radius: 3px;
 }
-.hero-carousel .btn-default:hover {
+.btn-default:hover {
 	border-color: #a5795e;
   background: #C2B797;
 }
