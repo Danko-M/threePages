@@ -305,6 +305,11 @@ h3 {
 	min-height: 370px;
 	padding: 40px;
 	color: #fff;
+	-webkit-transition: background-color 0.15s linear;
+    -moz-transition: background-color 0.15s linear;
+    -o-transition: background-color 0.15s linear;
+    -ms-transition: background-color 0.15s linear;
+    transition: background-color 0.15s linear;
 }
 .box-efficient {
 	background-color: rgba(59,108,114,0.85);
@@ -354,15 +359,10 @@ h3 {
 .hideP {
 	margin-top: 20px;
 }
-.section-03 a {
+.section-03 span {
 	font-size: 30px;
 	color: inherit;
 	font-weight: 500;	
-}
-.section-03 a:hover,
-.section-03 a:focus {
-	text-decoration: none;
-	color: inherit;	
 }
 .showP {
 	display: none;
