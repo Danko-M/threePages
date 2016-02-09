@@ -16,7 +16,7 @@ $(function(){
 	var $box = $('.section-03').find('.col-sm-6');
 
 	// console.log(window.innerWidth);
-	if(window.innerWidth >= 768) {
+	if(window.innerWidth >= 992) {
 
 		$box.on('mouseenter',  function(event) {
 			$(this).find($expandBtn).hide();
