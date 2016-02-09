@@ -13,23 +13,27 @@ $(function(){
 	// homepage, section 'Shop smarter' [+] buttons animation
 	var $expandBtn = $('.showP');
 	var $collapseBtn = $('.hideP');
+	var $box = $('.section-03').find('.col-sm-6');
 
-	$($expandBtn).on('mouseover',  function(event) {
-		event.preventDefault();
-		$(this).hide().next('p').slideToggle(300);
-		$(this).siblings('div').animate({ 
-			marginTop: '20px' 
-		}, 300);
-	});
+	// console.log(window.innerWidth);
+	if(window.innerWidth >= 768) {
 
-	$($collapseBtn).on('click',  function(event) {
-		event.preventDefault();
-		$(this).parent('p').slideToggle(300, function(){
-			$(this).siblings('a').show(300);
-			$(this).siblings('div').animate({ 
+		$box.on('mouseenter',  function(event) {
+			$(this).find($expandBtn).hide();
+			$(this).find('p').slideToggle(300);
+			$(this).find('div').animate({ 
+				marginTop: '20px' 
+			}, 300);
+		}); 
+
+		$box.on('mouseleave',  function(event) {
+			$(this).find($expandBtn).show(300);
+			$(this).find('p').slideToggle(300);
+			$(this).find('div').animate({ 
 				marginTop: '50px' 
 			}, 300);
-		});
-	});
+		}); 
+		
+	}
 
 });
