@@ -39,6 +39,7 @@ $(function(){
 	// Uber like menu
 	var iScrollPos = 0;
 	var $menu = $('.navbar-fixed-top');
+
 	$(window).scroll(function () {
 
 	    var iCurScrollPos = $(this).scrollTop();
@@ -66,4 +67,5 @@ $(function(){
 		    iScrollPos = iCurScrollPos;
 		});
 	*/
+	
 });
