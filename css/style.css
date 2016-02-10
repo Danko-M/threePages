@@ -170,6 +170,12 @@ h3 {
 .btn-default {
 	border-radius: 3px;
 }
+.carousel-control,
+.carousel-control:focus, 
+.carousel-control:hover {
+	opacity: 1;
+	filter: alpha(opacity=100);
+}
 .carousel-control.left,
 .carousel-control.right {
 	background-image: none;
