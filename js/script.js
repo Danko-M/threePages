@@ -50,5 +50,20 @@ $(function(){
 	    iScrollPos = iCurScrollPos;
 	});
 
+	// Uber like menu opt no.2
+	/*	$(window).scroll(function () {
 
+		    var iCurScrollPos = $(this).scrollTop();
+		    if (iCurScrollPos > iScrollPos) {
+	        $menu.animate({ 
+						top: '-81px' 
+					}, 300);					
+		    } else {
+	        $menu.animate({ 
+						top: '0px' 
+					}, 300);					 
+		    }
+		    iScrollPos = iCurScrollPos;
+		});
+	*/
 });
