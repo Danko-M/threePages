@@ -231,8 +231,7 @@ h3 {
 }
 @media only screen and (min-width: 768px) {
 	.section-01,
-	.section-01 strong
-	 {
+	.section-01 strong {
 		font-size: 26px;
 	}
 }
@@ -533,20 +532,21 @@ h3 {
 	background-color: #efefef;
 	padding-bottom: 80px;
 }
-.col-sm-1-5 {
+.col-sm-1-3-5 {
 	display: block;
 	padding-right: 15px;
   padding-left: 15px;
 }
 @media only screen and (min-width: 768px) {
-	.col-sm-1-5 {
-		width: 20%;
-		float: left;
+	.col-sm-1-3-5 {
+		display: inline-block;
+		width: 33%;
+		margin-right: -4px;
 	}
-	.col-sm-1-5 img {
-		display: block;
-    max-width: 100%;
-    height: auto;
+}
+@media only screen and (min-width: 992px) {
+	.col-sm-1-3-5 {
+		width: 20%;
 	}
 }
 /*********************************************************************************************
