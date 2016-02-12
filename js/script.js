@@ -67,5 +67,10 @@ $(function(){
 		    iScrollPos = iCurScrollPos;
 		});
 	*/
+
+	// Carousel speed
+	$('.carousel').carousel({
+	  interval: 8000
+	});
 	
 });
