@@ -385,38 +385,40 @@ h3 {
 .box-efficient {
 	background-color: rgba(59,108,114,0.85);
 }
-.box-efficient:hover {
-	background-color: rgba(59,108,114,1);
-}
 .box-guided {
 	background-color: rgba(239,178,142,0.85);
-}
-.box-guided:hover {
-	background-color: rgba(239,178,142,1);
 }
 .box-personalized {
 	background-color: rgba(99,107,111,0.85);
 }
-.box-personalized:hover {
-	background-color: rgba(99,107,111,1);
-}
 .box-private {
 	background-color: rgba(27,26,31,0.85);
-}
-.box-private:hover {
-	background-color: rgba(27,26,31,1);
 }
 .box-inclusive {
 	background-color: rgba(242,242,242,0.85);
 }
-.box-inclusive:hover {
-	background-color: rgba(242,242,242,1);
-}
 .box-social {
 	background-color: rgba(126,125,127,0.85);
 }
-.box-social:hover {
-	background-color: rgba(126,125,127,1);
+@media only screen and (min-width: 768px) {
+	.box-efficient:hover {
+		background-color: rgba(59,108,114,1);
+	}
+	.box-guided:hover {
+		background-color: rgba(239,178,142,1);
+	}
+	.box-personalized:hover {
+		background-color: rgba(99,107,111,1);
+	}
+	.box-private:hover {
+		background-color: rgba(27,26,31,1);
+	}
+	.box-inclusive:hover {
+		background-color: rgba(242,242,242,1);
+	}
+	.box-social:hover {
+		background-color: rgba(126,125,127,1);
+	}
 }
 .sec-03-title {
   margin-top: 50px;
