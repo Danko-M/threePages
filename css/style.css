@@ -540,6 +540,9 @@ h3 {
 .section-05 .carousel-inner>.item>a>img {
 	display: inline-block;
 }
+.section-05 .carousel-indicators {
+  bottom: -50px;
+}
 @media only screen and (min-width: 768px) {
 	.col-sm-1-3-5 {
 		display: inline-block;
