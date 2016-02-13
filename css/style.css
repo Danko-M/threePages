@@ -182,15 +182,16 @@ h3 {
 }
 .carousel-control img {
   position: absolute;
-  top: 80%;
-  display: none;
+	top: 50%;
+	width: 27px;
+	height: auto;
   margin-top: -27px;
   z-index: 5;
 }
 @media only screen and (min-width: 900px){
 	.carousel-control img {
-		display: inline-block;
-		top: 50%;
+		width: auto;
+  	margin-top: -52px;
 	}
 	.carousel-control .glyphicon {
 		display: none;
@@ -599,6 +600,16 @@ h3 {
 .social a:hover .fa {
 	color: #fff;
 }
+/******************************
+	mobile carousel controlls 
+******************************/
+.left.carousel-control img {
+	left: 10px;
+}
+.right.carousel-control img {
+	right: 10px;
+}
+
 
 /* Custom, iPhone Retina */
 
