@@ -183,17 +183,23 @@ h3 {
 .carousel-control img {
   position: absolute;
 	top: 50%;
-	width: 27px;
+	width: 14px;
 	height: auto;
-  margin-top: -27px;
+  margin-top: -14px;
   z-index: 5;
 }
 .left.carousel-control img {
-	left: 10px;
+	left: 5px;
 }
 .right.carousel-control img {
-	right: 10px;
+	right: 5px;
 }
+// .carousel-control.left img {
+// 	left: 20px;
+// }
+// .carousel-control.right img {
+// 	right: 20px;
+// }
 @media only screen and (min-width: 900px){
 	.carousel-control img {
 		width: auto;
@@ -208,12 +214,6 @@ h3 {
 	.carousel-control .glyphicon {
 		display: none;
 	}
-}
-.carousel-control.left img {
-	left: 20px;
-}
-.carousel-control.right img {
-	right: 20px;
 }
 .hero {
 	margin-top: 81px;
@@ -316,8 +316,8 @@ h3 {
 .challenge-4 p {
   position: absolute;
   top: 55%;
-	left: 10%;
-	width: 80%;
+	left: 15%;
+  width: 70%;
 
   transform: translateY(-50%);
 }

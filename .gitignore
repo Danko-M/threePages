@@ -1,6 +1,5 @@
-*zip
-psd
-temp
-bower_components
 .jsbeautifyrc
 .jshintrc
+temp/
+threePages.sublime-project
+threePages.sublime-workspace
