@@ -188,10 +188,22 @@ h3 {
   margin-top: -27px;
   z-index: 5;
 }
+.left.carousel-control img {
+	left: 10px;
+}
+.right.carousel-control img {
+	right: 10px;
+}
 @media only screen and (min-width: 900px){
 	.carousel-control img {
 		width: auto;
   	margin-top: -52px;
+	}
+	.left.carousel-control img {
+		left: 20px;
+	}
+	.right.carousel-control img {
+		right: 20px;
 	}
 	.carousel-control .glyphicon {
 		display: none;
@@ -600,15 +612,7 @@ h3 {
 .social a:hover .fa {
 	color: #fff;
 }
-/******************************
-	mobile carousel controlls 
-******************************/
-.left.carousel-control img {
-	left: 10px;
-}
-.right.carousel-control img {
-	right: 10px;
-}
+
 
 
 /* Custom, iPhone Retina */
