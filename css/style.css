@@ -367,7 +367,7 @@ h3 {
 }
 .section-03 .col-sm-6 {
 	min-height: 390px;
-	padding: 40px;
+	padding: 40px 40px 10px 40px;
 	color: #fff;
 	-webkit-transition: background-color 0.15s linear;
     -moz-transition: background-color 0.15s linear;
