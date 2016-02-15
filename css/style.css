@@ -352,7 +352,7 @@ h3 {
 *********************************************************************************************/
 .section-03 {
 	background-image: url(../img/bg-screenshots.jpg);
-	background-position: center top;
+	background-position: center 120px;
 	-webkit-background-size: cover;
 	background-size: cover;
 }
@@ -376,6 +376,9 @@ h3 {
     transition: background-color 0.15s linear;
 }
 @media only screen and (min-width: 768px) {
+	.section-03 {
+		background-position: center top;
+	}
 	.section-03 .col-sm-6 {
 		min-height: 370px;
 	}
