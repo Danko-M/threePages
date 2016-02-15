@@ -170,23 +170,19 @@ h3 {
 	
 }
 
-
-.hero-carousel {
+.item {
+	-webkit-background-size: cover;
+	background-size: cover;	
+	min-height: 760px;	
 }
 .hero-01-container {
 	background: url(../img/hero-01.jpg) no-repeat center top scroll;
-	-webkit-background-size: cover;
-	background-size: cover;	
 }
 .hero-02-container {
 	background: url(../img/hero-02.jpg) no-repeat center top scroll;
-	-webkit-background-size: cover;
-	background-size: cover;	
 }
 .hero-03-container {
 	background: url(../img/hero-03.jpg) no-repeat center top scroll;
-	-webkit-background-size: cover;
-	background-size: cover;	
 }
 .btn-default {
 	border-radius: 3px;
