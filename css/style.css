@@ -174,15 +174,17 @@ h3 {
 	-webkit-background-size: cover;
 	background-size: cover;	
 	min-height: 760px;	
+	background-repeat: no-repeat;
+	background-position: center top
 }
 .hero-01-container {
-	background: url(../img/hero-01.jpg) no-repeat center top scroll;
+	background-image: url(../img/hero-01.jpg);
 }
 .hero-02-container {
-	background: url(../img/hero-02.jpg) no-repeat center top scroll;
+	background-image: url(../img/hero-02.jpg);
 }
 .hero-03-container {
-	background: url(../img/hero-03.jpg) no-repeat center top scroll;
+	background-image: url(../img/hero-03.jpg);
 }
 .btn-default {
 	border-radius: 3px;
