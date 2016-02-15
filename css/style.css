@@ -187,12 +187,6 @@ h3 {
 .hero-03-container {
 	background-image: url(../img/hero-03.jpg);
 }
-.hero-03-container .hero {
-	text-shadow: 1px 1px #000;
-}
-.hero-03-container .btn {
-	text-shadow: none;
-}
 .btn-default {
 	border-radius: 3px;
 }
