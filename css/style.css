@@ -12,7 +12,6 @@ body {
 	font-family: "Gotham A", "Gotham B";
 	font-style: normal;	
 	font-weight: 400;
-	min-height: 2000px;
 }
 h2 {
 	font-size: 34px;
@@ -618,7 +617,27 @@ h3 {
 	color: #fff;
 }
 
-
+/*********************************************************************************************
+	HOW IT WORKS - PAGE 
+*********************************************************************************************/
+.hero-howitworks {
+	min-height: 500px;
+	padding-top: 260px;
+	text-align: center;
+	color: #fff;
+	font-weight: 500;
+	background-image: url(../img/hero-howitworks.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+.title-md {
+	font-size: 26px;
+	font-weight: 500;
+}
+.sec-04-howitworks ul {
+	list-style-position: inside;
+}
 
 /* Custom, iPhone Retina */
 
