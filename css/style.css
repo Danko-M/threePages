@@ -631,6 +631,9 @@ h3 {
 	background-size: cover;
 	background-position: center center;
 }
+.hero-howitworks h2 {
+	font-weight: 500;
+}
 .title-md {
 	font-size: 26px;
 	font-weight: 500;
