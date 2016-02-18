@@ -707,7 +707,7 @@ h3 {
 .sec-02-howitworks .container {
 	position: relative;
 } 
-.sec-02-howitworks .container:before {
+.sec-02-howitworks .container:before- {
 	position: absolute;
 	width: 815px;
 	height: 340px;
@@ -716,26 +716,62 @@ h3 {
 	background-position: -14px -420px;
 }
 
-
-
-
 /*********************************************************************************************
 	SEC-03-HOWITWORKS 
 *********************************************************************************************/
-
-
-
-
-
-
+.sec-03-howitworks {
+	// padding-top: 75px;
+	color: #fff;
+	background-image: url(../img/howitworks-bg-03.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.sec-03-howitworks h3 {
+	margin-bottom: 30px;
+}
+.sec-03-howitworks p {
+	font-size: 20px;
+}
+.sec-03-howitworks .col-sm-6 {
+	margin-bottom: 90px;
+}
 
 
 /*********************************************************************************************
 	SEC-04-HOWITWORKS 
 *********************************************************************************************/
+.sec-04-howitworks {
+	padding-top: 100px;
+	padding-bottom: 100px;
+	color: #fff;
+	background-image: url(../img/howitworks-bg-04.jpg);
+	background-repeat: no-repeat;
+	background-position: center center;
+}
+.sec-04-howitworks_inner {
+	background: rgba(123, 152, 155, 0.65);
+	margin-left: -15px;
+	margin-right: -15px;
+}
 
-
-
+.sec-04-howitworks p {
+	font-size: 26px;
+}
+.sec-04-howitworks ul {
+	padding-left: 0;
+	font-size: 20px;
+	line-height: 30px;
+}
+@media only screen and (min-width: 768px) {
+	.sec-04-howitworks ul {
+		line-height: 50px;
+	}
+}
+.title-md {
+	margin-top: 50px;
+	margin-bottom: 40px;
+	font-size: 50px;
+}
 
 
 
