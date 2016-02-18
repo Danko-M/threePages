@@ -618,7 +618,7 @@ h3 {
 }
 
 /*********************************************************************************************
-	HOW IT WORKS - PAGE 
+	HOW IT WORKS - PAGE ************************************************************************
 *********************************************************************************************/
 .hero-howitworks {
 	min-height: 500px;
@@ -641,6 +641,112 @@ h3 {
 .sec-04-howitworks ul {
 	list-style-position: inside;
 }
+/*********************************************************************************************
+	HOWITWORKS - SECTION WITH MEASURING TAPES
+*********************************************************************************************/
+.sec-01-howitworks h3 {
+	position: relative;
+	text-align: center;
+}
+.sec-01-howitworks h4 {
+	font-size: 26px;
+}
+.sec-01-howitworks .box-01,
+.sec-01-howitworks .box-02,
+.sec-01-howitworks .box-03,
+.sec-01-howitworks .box-04 {
+	max-width: 220px;
+}
+.sec-01-howitworks .box-01,
+.sec-01-howitworks .box-03 {
+	margin-bottom: 230px;
+}
+.sec-01-howitworks .box-02,
+.sec-01-howitworks .box-04 {
+	margin-bottom: 185px;
+}
+
+.h3-retailers:after,
+.h3-shoppers:after {
+	position: absolute;
+	display: block;
+	content: "";
+	background: url(../img/sprites.png) no-repeat;
+}
+.h3-shoppers:after {
+	width: 125px;
+	height: 260px;
+	background-position: -10px -125px;
+}
+.h3-retailers:after {
+	right: 0;
+	width: 200px;
+	height: 255px;
+	background-position: -137px -125px;
+}
+.ico {
+	display: block;	
+	margin: 0 auto;
+	background: url(../img/sprites.png) no-repeat;
+}
+.ico-shopper {
+	width: 75px;
+	height: 114px;	
+}
+.ico-retailer {
+	width: 76px;
+	height: 114px;
+	margin: 0 auto;
+	background-position: -76px 0;	
+
+}
+
+/*********************************************************************************************
+	SEC-02-HOWITWORKS 
+*********************************************************************************************/
+.sec-02-howitworks .container {
+	position: relative;
+} 
+.sec-02-howitworks .container:before {
+	position: absolute;
+	width: 815px;
+	height: 340px;
+	content: "";
+	background: url(../img/sprites.png) no-repeat;
+	background-position: -14px -420px;
+}
+
+
+
+
+/*********************************************************************************************
+	SEC-03-HOWITWORKS 
+*********************************************************************************************/
+
+
+
+
+
+
+
+
+/*********************************************************************************************
+	SEC-04-HOWITWORKS 
+*********************************************************************************************/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /* Custom, iPhone Retina */
 
