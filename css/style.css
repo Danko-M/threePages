@@ -677,7 +677,9 @@ h3 {
 	border: 2px solid #ededed;	
 	border-radius: 50%;
 }
-
+#carousel-example-generic-howitworks-01 .item {
+	min-height: 850px;
+}
 
 
 
