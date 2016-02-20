@@ -691,8 +691,7 @@ h3 {
   left: 100%;
 	width: 175px;
 	height: 285px;
-  margin-top: -40px;
-  margin-left: 10px;
+
 	background-position: -342px -130px;
 }
 .sec-01-howitworks .box-02:after {
@@ -767,10 +766,16 @@ h3 {
 	.h3-retailers:after {
 		top: 0;
 		right: 0;
+    // top: 0px;
+    // right: 60px;
 		width: 200px;
 		height: 255px;
 		background-position: -137px -125px;
 	}
+	.sec-01-howitworks .box-01:before {
+	  margin-top: -40px;
+	  margin-left: 10px;
+  }
 }
 @media only screen and (min-width: 992px) {
 	.h3-shoppers {
@@ -784,8 +789,6 @@ h3 {
     left: 0;
   }
   .h3-retailers:after {
-    top: 0px;
-    right: 60px;
 	}
   .sec-01-howitworks .box-01:before {
     margin-top: -20px;
