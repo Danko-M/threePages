@@ -780,9 +780,13 @@ h3 {
 	.h3-retailers {
     margin-bottom: 190px;
 	}
-	.h3-retailers:after {
-    top: 5px;
+	.h3-shoppers:after
+    left: 0;
   }
+  .h3-retailers:after {
+    top: 0px;
+    right: 60px;
+	}
   .sec-01-howitworks .box-01:before {
     margin-top: -20px;
     margin-left: 60px;
@@ -793,6 +797,11 @@ h3 {
   .sec-01-howitworks .box-03:before {
     left: 70px;
   	margin-top: 0px;
+  }
+}
+@media only screen and (min-width: 992px) {
+	.h3-retailers:after {
+    top: 5px;
   }
 }
 .ico {
