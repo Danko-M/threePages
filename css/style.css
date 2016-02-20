@@ -695,7 +695,7 @@ h3 {
 }
 @media only screen and (min-width: 768px) {
 	.sec-01-howitworks .box-01:before {
-	  margin-top: -20px;
+	  margin-top: -45px;
 	  margin-left: 10px;
   }
 	.h3-shoppers:after {
@@ -780,7 +780,7 @@ h3 {
 	}
 	.h3-shoppers {
 		padding-left: 30px;
-		margin-bottom: 230px;
+		margin-bottom: 200px;
 	}
 	.h3-retailers {
 		margin-bottom: 230px;
