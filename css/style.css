@@ -652,7 +652,7 @@ h3 {
 	}
 }
 .sec-01-howitworks .col-sm-6 {
-	margin-top: 60px;
+	padding-top: 60px;
 }
 .sec-01-howitworks h3 {
 	position: relative;
@@ -665,7 +665,32 @@ h3 {
 .sec-01-howitworks .box-02,
 .sec-01-howitworks .box-03,
 .sec-01-howitworks .box-04 {
+	position: relative;
 	max-width: 220px;
+}
+.sec-01-howitworks .box-01:before,
+.sec-01-howitworks .box-02:before	,
+.sec-01-howitworks .box-03:before	,
+.sec-01-howitworks .box-04:before {
+	position: absolute;
+	display: block;
+	content: "";
+	background: url(../img/sprites.png) no-repeat;
+}
+.sec-01-howitworks .box-01:before {
+  top: 100%;
+  left: 100%;
+	width: 175px;
+	height: 285px;
+	background-position: -342px -130px;
+}
+
+.sec-01-howitworks .box-03:before {
+  top: 100%;
+  left: 100%;
+	width: 160px;
+	height: 275px;
+	background-position: -525px -129px;
 }
 .rounded-num {
 	width: 71px;
@@ -692,6 +717,12 @@ h3 {
 	.sec-01-howitworks .box-04 {
 		margin-bottom: 185px;
 	}
+	.h3-shoppers {
+		margin-bottom: 230px;
+	}
+	.h3-retailers {
+		margin-bottom: 230px;
+	}
 	.h3-retailers:after,
 	.h3-shoppers:after {
 		position: absolute;
@@ -700,11 +731,13 @@ h3 {
 		background: url(../img/sprites.png) no-repeat;
 	}
 	.h3-shoppers:after {
+		top: 0;
 		width: 125px;
 		height: 260px;
 		background-position: -10px -125px;
 	}
 	.h3-retailers:after {
+		top: 0;
 		right: 0;
 		width: 200px;
 		height: 255px;
@@ -736,11 +769,13 @@ h3 {
 	position: relative;
 	padding-bottom: 90px;
 } 
-.sec-02-howitworks .container:before- {
+.sec-02-howitworks .container:before {
 	position: absolute;
+	left: 50%;
+  top: -200px;
 	width: 815px;
 	height: 340px;
-	content: "";
+	margin-left: -390px;
 	background: url(../img/sprites.png) no-repeat;
 	background-position: -14px -420px;
 }
