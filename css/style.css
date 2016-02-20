@@ -691,9 +691,41 @@ h3 {
   left: 100%;
 	width: 175px;
 	height: 285px;
-
 	background-position: -342px -130px;
 }
+@media only screen and (min-width: 768px) {
+	.sec-01-howitworks .box-01:before {
+	  margin-top: -20px;
+	  margin-left: 10px;
+  }
+	.h3-shoppers:after {
+		top: 0;
+		left: -30px;
+		width: 125px;
+		height: 260px;
+		background-position: -10px -125px;
+	}
+
+}
+@media only screen and (min-width: 992px) {
+  .sec-01-howitworks .box-01:before {
+    margin-top: -20px;
+    margin-left: 10px;
+  }
+  .h3-shoppers:after {
+    left: -10px;
+  }
+
+}
+
+
+
+
+
+
+
+
+
 .sec-01-howitworks .box-02:after {
 	bottom: 15px;
 	left: -165px;
@@ -702,9 +734,14 @@ h3 {
 	margin-left: -20px;
 	background-position: -245px -35px;
 }
+@media only screen and (min-width: 1200px) {
+	.sec-01-howitworks .box-02:after {
+		margin-left: -100px;
+	}
+}
 .sec-01-howitworks .box-03:before {
 	top: 100%;
-	left: 20px;
+	// left: 20px;
 	width: 160px;
 	height: 275px;
 	margin-top: -10px;
@@ -744,7 +781,7 @@ h3 {
 	}
 	.h3-shoppers {
 		padding-left: 30px;
-		margin-bottom: 200px;
+		margin-bottom: 230px;
 	}
 	.h3-retailers {
 		margin-bottom: 230px;
@@ -754,30 +791,23 @@ h3 {
 		position: absolute;
 		display: block;
 		content: "";
-		background: url(../img/sprites.png) no-repeat;
+		background-image: url(../img/sprites.png);
+		background-repeat: no-repeat;
 	}
-	.h3-shoppers:after {
-		top: 0;
-		left: -30px;
-		width: 125px;
-		height: 260px;
-		background-position: -10px -125px;
-	}
+
 	.h3-retailers:after {
 		top: 0;
 		right: 0;
-    // top: 0px;
-    // right: 60px;
 		width: 200px;
 		height: 255px;
 		background-position: -137px -125px;
 	}
-	.sec-01-howitworks .box-01:before {
-	  margin-top: -40px;
-	  margin-left: 10px;
-  }
+
+
 }
+
 @media only screen and (min-width: 992px) {
+
 	.h3-shoppers {
 		margin-bottom: 190px;
 		padding-left: 0;
@@ -785,15 +815,8 @@ h3 {
 	.h3-retailers {
     margin-bottom: 190px;
 	}
-	.h3-shoppers:after
-    left: 0;
-  }
-  .h3-retailers:after {
-	}
-  .sec-01-howitworks .box-01:before {
-    margin-top: -20px;
-    margin-left: 60px;
-  }
+
+
   .sec-01-howitworks .box-03 {
     margin-bottom: 240px;
 	}
@@ -801,12 +824,11 @@ h3 {
     left: 70px;
   	margin-top: 0px;
   }
-}
-@media only screen and (min-width: 992px) {
 	.h3-retailers:after {
     top: 5px;
   }
 }
+
 .ico {
 	display: block;	
 	margin: 0 auto;
@@ -852,6 +874,11 @@ h3 {
 		background-position: -14px -420px;
 		background-size: inherit;
 	}
+}
+@media only screen and (min-width: 992px) {
+	.sec-02-howitworks .container:before {
+		top: -210px;
+	}	
 }
 .sec-02-howitworks h4 {
 	font-size: 26px;
