@@ -833,6 +833,7 @@ h3 {
 }
 @media only screen and (min-width: 992px) {
 	.sec-02-howitworks .container:before {
+		top: -200px;
 		width: 815px;
 		height: 340px;
 		margin-left: -390px;
