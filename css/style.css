@@ -674,15 +674,16 @@ h3 {
 	float: right;
 }
 .sec-01-howitworks .box-01:before,
-.sec-01-howitworks .box-02:before	,
-.sec-01-howitworks .box-03:before	,
+.sec-01-howitworks .box-02:before,
+.sec-01-howitworks .box-02:after,
+.sec-01-howitworks .box-03:before,
+.sec-01-howitworks .box-03:after,
 .sec-01-howitworks .box-04:before {
 	position: absolute;
 	display: block;
 	content: "";
 	background-image: url(../img/sprites.png);
 	background-repeat: no-repeat;
-	// background-size: 120%;
 }
 
 .sec-01-howitworks .box-01:before {
@@ -692,13 +693,26 @@ h3 {
 	height: 285px;
 	background-position: -342px -130px;
 }
-
+.sec-01-howitworks .box-02:after {
+	top: 20px;
+  left: -165px;
+	width: 165px;
+	height: 80px;
+	background-position: -245px -35px;
+}
 .sec-01-howitworks .box-03:before {
   top: 100%;
   left: 20px;
 	width: 160px;
 	height: 275px;
 	background-position: -525px -129px;
+}
+.sec-01-howitworks .box-03:after {
+	top: 20px;
+  right: -165px;
+	width: 92px;
+	height: 85px;
+	background-position: -154px -30px;
 }
 .rounded-num {
 	width: 71px;
