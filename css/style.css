@@ -780,6 +780,20 @@ h3 {
 	.h3-retailers {
     margin-bottom: 190px;
 	}
+	.h3-retailers:after {
+    top: 5px;
+  }
+  .sec-01-howitworks .box-01:before {
+    margin-top: -20px;
+    margin-left: 60px;
+  }
+  .sec-01-howitworks .box-03 {
+    margin-bottom: 240px;
+	}
+  .sec-01-howitworks .box-03:before {
+    left: 70px;
+  	margin-top: 0px;
+  }
 }
 .ico {
 	display: block;	
