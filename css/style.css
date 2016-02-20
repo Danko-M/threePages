@@ -809,13 +809,13 @@ h3 {
 .sec-02-howitworks .container:before {
 	position: absolute;
 	left: 50%;
-	top: -160px;
-	width: 750px;
+	top: -150px;
+	width: 670px;
 	height: 340px;
-	margin-left: -325px;
+	margin-left: -320px;
 	background: url(../img/sprites.png) no-repeat;
 	background-position: 0 -375px;
-	background-size: 90%;
+	background-size: 100%;
 }
 @media only screen and (min-width: 992px) {
 	.sec-02-howitworks .container:before {
