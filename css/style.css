@@ -763,12 +763,22 @@ h3 {
 	border: 2px solid #ededed;	
 	border-radius: 50%;
 }
-#carousel-example-generic-howitworks-01 .item {
-	min-height: 850px;
+#carousel-example-generic-howitworks-01 {
+	padding-bottom: 50px;
+	
 }
-
-
-
+#carousel-example-generic-howitworks-01 .carousel-control img {
+	top: 220px;
+}
+#carousel-example-generic-howitworks-01 .item .carousel-control {
+	opacity: 0;
+	-webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+}
+#carousel-example-generic-howitworks-01 .item.active .carousel-control {
+	opacity: 1;
+}
 @media only screen and (min-width: 768px) {
 	.sec-01-howitworks .box-01,
 	.sec-01-howitworks .box-03 {
