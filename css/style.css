@@ -265,7 +265,7 @@ h3 {
 	}
 }
 .tie,
-.shoes {
+.shirts {
 	position: absolute;
 	top: 0;
 	display: none;
@@ -274,7 +274,8 @@ h3 {
 .tie {
 	left: 0;
 }
-.shoes {
+.shirts {
+	top: 140px;
 	right: -200px;
 }
 @media only screen and (min-width: 1600px) {
@@ -283,7 +284,7 @@ h3 {
 		padding-right: 250px;
 	}
 	.tie,
-	.shoes {
+	.shirts {
 		display: block;
 	}
 }
@@ -685,7 +686,6 @@ h3 {
 	background-image: url(../img/sprites.png);
 	background-repeat: no-repeat;
 }
-
 .sec-01-howitworks .box-01:before {
   top: 100%;
   left: 100%;
@@ -716,15 +716,6 @@ h3 {
     left: -30px;
   }
 }
-
-
-
-
-
-
-
-
-
 .sec-01-howitworks .box-02:after {
 	bottom: 15px;
 	left: -165px;
@@ -740,7 +731,6 @@ h3 {
 }
 .sec-01-howitworks .box-03:before {
 	top: 100%;
-	// left: 20px;
 	width: 160px;
 	height: 275px;
 	margin-top: -10px;
@@ -971,19 +961,6 @@ h3 {
 		line-height: 50px;
 	}
 }
-.title-md {
-	margin-top: 50px;
-	margin-bottom: 40px;
-	font-size: 50px;
-}
-
-
-
-
-
-
-
-
 
 
 
