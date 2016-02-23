@@ -947,7 +947,10 @@ h3 {
 	margin-left: -15px;
 	margin-right: -15px;
 }
-
+.sec-04-howitworks span {
+	display: block;
+	margin-bottom: 10px;
+}
 .sec-04-howitworks p {
 	font-size: 24px;
 }
