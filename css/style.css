@@ -949,12 +949,17 @@ h3 {
 }
 
 .sec-04-howitworks p {
-
+	font-size: 24px;
 }
 .sec-04-howitworks ul {
 	padding-left: 0;
 	font-size: 20px;
 	line-height: 30px;
+}
+@media only screen and (min-width: 992px) {
+	.sec-04-howitworks p {
+		font-size: 30px;
+	}
 }
 @media only screen and (min-width: 768px) {
 	.sec-04-howitworks ul {
