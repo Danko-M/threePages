@@ -264,14 +264,13 @@ h3 {
 		font-size: 26px;
 	}
 }
-.tie,
-.shirts {
+.section-01 img {
 	position: absolute;
-	top: 0;
 	display: none;
 	z-index: -1;
 }
 .tie {
+	top: 0;
 	left: 0;
 }
 .shirts {
@@ -283,8 +282,7 @@ h3 {
 		padding-left: 250px;
 		padding-right: 250px;
 	}
-	.tie,
-	.shirts {
+	.section-01 img {
 		display: block;
 	}
 }
@@ -638,9 +636,7 @@ h3 {
 .hero-howitworks h2 {
 	font-weight: 500;
 }
-.sec-04-howitworks ul {
-	list-style-position: inside;
-}
+
 /*********************************************************************************************
 	HOWITWORKS - SECTION WITH MEASURING TAPES
 *********************************************************************************************/
@@ -961,6 +957,7 @@ h3 {
 	padding-left: 0;
 	font-size: 20px;
 	line-height: 30px;
+	list-style-position: inside;
 }
 @media only screen and (min-width: 992px) {
 	.sec-04-howitworks p {

@@ -1,0 +1,45 @@
+/**********************************************************************************************
+	FOR RETAILERS - PAGE ************************************************************************
+**********************************************************************************************/
+
+.forretailers p {
+	font-size: 20px;
+}
+.hero-for-retailers {
+	min-height: 500px;
+	padding-top: 260px;
+	text-align: center;
+	color: #fff;
+	font-weight: 500;
+	background-image: url(../img/hero-for-retailers.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+.hero-for-retailers h2 {
+	font-weight: 500;
+}
+/*********************************************************************************************
+	WHAT WE DO - SECTION
+*********************************************************************************************/
+.forretailers .section-01 {
+	min-height: 350px;
+}
+@media only screen and (min-width: 992px) {
+	.forretailers .section-01 {
+		min-height: 390px;
+	}
+}
+.shoes {
+	left: -200px;
+	bottom: 0;
+}
+.belt {
+	right: 0px;
+	bottom: 0;
+}
+
+
+/*********************************************************************************************
+	 - SECTION
+*********************************************************************************************/
