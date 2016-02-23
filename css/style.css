@@ -951,6 +951,9 @@ h3 {
 	display: block;
 	margin-bottom: 10px;
 }
+.sec-04-howitworks h3 {
+	font-weight: 400;
+}
 .sec-04-howitworks p {
 	font-size: 24px;
 }
