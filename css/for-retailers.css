@@ -42,6 +42,11 @@
 /*********************************************************************************************
 	WHY INSTALL STYLEKEY? - SECTION
 *********************************************************************************************/
+.sec-02-forretailers {
+	padding-bottom: 75px;
+	color: #fff;
+	background: rgba(54, 82, 86, 0.75);
+}
 .ico-01,
 .ico-02,
 .ico-03,
@@ -86,7 +91,9 @@
 	margin-left: 50%;
 }
 @media only screen and (min-width: 992px) {
-	margin-top: 180px;
+	.box-06 {	
+		margin-top: 180px;
+	}
 }
 .box-06:before,
 .box-06:after {
