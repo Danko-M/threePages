@@ -119,14 +119,18 @@
 	.ico-07 {
   	display: inline-block;
 	}
+	.sec-03-forretailers {
+		padding-bottom: 100px;
+	}
 }
 /*********************************************************************************************
 	 - SECTION
 *********************************************************************************************/
 .forretailers .sec-02-howitworks .container:before {
+	top: -130px;
 	width: 195px;
 	height: 260px;
-	margin-left: -100px;
+  margin-left: -80px;
 	background-position: -495px -760px;
 	background-size: inherit;
 }
