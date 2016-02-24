@@ -43,9 +43,35 @@
 	WHY INSTALL STYLEKEY? - SECTION
 *********************************************************************************************/
 .sec-02-forretailers {
+	position: relative;
 	padding-bottom: 75px;
 	color: #fff;
-	background: rgba(54, 82, 86, 0.75);
+	z-index: 1;
+}
+.sec-02-forretailers:before,
+.sec-02-forretailers:after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: block;
+	content: "";
+}
+.sec-02-forretailers:before {
+	background: rgba(54, 82, 86, 0.75);	
+	z-index: 0;
+}
+@media only screen and (min-width: 1200px) {
+	.sec-02-forretailers:after {
+		bottom: -60px;
+		background-image: url(../img/bg-triangles-gray.jpg);
+		background-size: contain;
+		z-index: -1;
+	}
+}
+.sec-02-forretailers h3 {
+	position: relative;
 }
 .ico-01,
 .ico-02,
