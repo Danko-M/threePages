@@ -7,7 +7,6 @@ Contact:
         skype: danko.milutinovic
         https://rs.linkedin.com/pub/danko-milutinovic/a3/675/778         
 */
-
 body {
 	font-family: "Gotham A", "Gotham B";
 	font-style: normal;	
@@ -620,9 +619,9 @@ h3 {
 	color: #fff;
 }
 
-/*********************************************************************************************
-	HOW IT WORKS - PAGE ************************************************************************
-*********************************************************************************************/
+/***************************************************************************************************************************************************
+	HOW IT WORKS - PAGE ******************************************************************************************************************************
+***************************************************************************************************************************************************/
 .howitworks p {
 	font-size: 20px;
 }
@@ -974,54 +973,235 @@ h3 {
 	}
 }
 
+/**************************************************************************************************************************************************
+	FOR RETAILERS - PAGE ****************************************************************************************************************************
+**************************************************************************************************************************************************/
+.forretailers p {
+	font-size: 20px;
+}
+.hero-for-retailers {
+	min-height: 500px;
+	padding-top: 260px;
+	text-align: center;
+	color: #fff;
+	font-weight: 500;
+	background-image: url(../img/hero-for-retailers.jpg);
+	-webkit-background-size: cover;
+	background-size: cover;
+	background-position: center center;
+}
+.hero-for-retailers h2 {
+	font-weight: 500;
+}
+/*********************************************************************************************
+	WHAT WE DO - SECTION
+*********************************************************************************************/
+.forretailers .section-01 {
+	min-height: 350px;
+}
+@media only screen and (min-width: 992px) {
+	.forretailers .section-01 {
+		min-height: 390px;
+	}
+}
+.dress {
+	left: -200px;
+	bottom: 0;
+}
+.belt {
+	right: 0px;
+	bottom: 0;
+}
 
+/*********************************************************************************************
+	WHY INSTALL STYLEKEY? - SECTION
+*********************************************************************************************/
+.sec-02-forretailers {
+	position: relative;
+	padding-bottom: 75px;
+	color: #fff;
+	z-index: 1;
+}
+.sec-02-forretailers:before,
+.sec-02-forretailers:after {
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	display: block;
+	content: "";
+}
+.sec-02-forretailers:before {
+	background: rgba(54, 82, 86, 0.75);	
+	z-index: 0;
+}
+@media only screen and (min-width: 1200px) {
+	.sec-02-forretailers:after {
+		bottom: -60px;
+		background-image: url(../img/bg-triangles-gray.jpg);
+		background-size: contain;
+		background-repeat: repeat-x;
+		z-index: -1;
+	}
+}
+@media only screen and (min-width: 768px) {
+	.sec-02-forretailers .media {
+		min-height: 190px;
+	}
+}
+@media only screen and (min-width: 992px) {
+	.sec-02-forretailers .media {
+		min-height: 160px;
+	}
+}
+.sec-02-forretailers .media-body {
+	padding-left: 30px;
+}
+.sec-02-forretailers h3 {
+	position: relative;
+}
+.ico-01,
+.ico-02,
+.ico-03,
+.ico-04,
+.ico-05,
+.ico-06 {
+	width: 45px;
+	height: 45px;
+	background-image: url(../img/sprites.png);
+}
+.ico-01 {
+	background-position: -450px 0;
+}
+.ico-02 {
+	background-position: -495px 0;
+}
+.ico-03 {
+	background-position: -540px 0;
+}
+.ico-04 {
+	background-position: -585px 0;
+}
+.ico-05 {
+	background-position: -630px 0;
+}
+.ico-06 {
+	background-position: -675px 0;
+}
+/*********************************************************************************************
+	HOW IT WORKS: RETAILERS - SECTION
+*********************************************************************************************/
 
+.box-05,
+.box-06,
+.box-07 {
+	width: 50%;
+}
+.box-06 {
+	position: relative;
+	margin-top: 40px;
+	margin-bottom: 60px;
+	margin-left: 50%;
+}
+@media only screen and (min-width: 992px) {
+	.box-06 {	
+		margin-top: 65px;
+	}
+}
+@media only screen and (min-width: 1200px) {
+	.box-06 {	
+		margin-top: 90px;
+	}
+}
+.box-06:before,
+.box-06:after {
+	position: absolute;
+	display: block;
+	content: "";	
+	background-image: url(../img/sprites.png);
+}
+.box-06:before {
+  top: -265px;
+  left: 15px;
+  width: 190px;
+  height: 280px;
+  background-position: 0 -760px;
+}
+.box-06:after {
+	left: -310px;
+  bottom: -180px;
+  width: 295px;
+  height: 280px;
+  background-position: -200px -760px;
+}
+.ico-07 {
+	display: none;
+  width: 45px;
+  height: 50px;
+  margin-left: 20px;
+  background-position: -450px -60px;
+}
+.sec-03-forretailers .visible-xs-block {
+	padding-bottom: 60px;
+}
+@media only screen and (min-width: 768px) {
+	.ico-07 {
+  	display: inline-block;
+	}
+	.sec-03-forretailers {
+		padding-bottom: 120px;
+		background-color: #f7f7f7;
+	}
+}
 
-/* Custom, iPhone Retina */
+/*********************************************************************************************
+	REACH YOUR MARKET / CURATED SHOPPING - SECTION
+*********************************************************************************************/
+.forretailers .sec-02-howitworks .container:before {
+	top: -150px;
+	width: 195px;
+	height: 260px;
+  margin-left: -80px;
+	background-position: -495px -760px;
+	background-size: inherit;
+}
 
-@media only screen and (min-width: 320px) {}
-
-
-/* Extra Small Devices, Phones */
-
-@media only screen and (min-width: 480px) {}
-
-
-/* Small Devices, Tablets */
-
-@media only screen and (min-width: 768px) {}
-
-
-/* Medium Devices, Desktops */
-
-@media only screen and (min-width: 992px) {}
-
-
-/* Large Devices, Wide Screens */
-
-@media only screen and (min-width: 1200px) {}
-
-
-/* Large Devices, Wide Screens */
-
-@media only screen and (max-width: 1199px) {}
-
-
-/* Medium Devices, Desktops */
-
-@media only screen and (max-width: 991px) {}
-
-
-/* Small Devices, Tablets */
-
-@media only screen and (max-width: 767px) {}
-
-
-/* Extra Small Devices, Phones */
-
-@media only screen and (max-width: 479px) {}
-
-
-/* Custom, iPhone Retina */
-
-@media only screen and (max-width: 319px) {}
+/*********************************************************************************************
+	INSTALL STYLEKEY ON YOUR STORE - SECTION
+*********************************************************************************************/
+.forretailers .sec-03-howitworks {
+	border-bottom: 8px solid #fac7a9;
+}
+.forretailers .sec-03-howitworks span {
+	display: block;
+	margin-bottom: 60px;
+	font-size: 30px;
+	font-weight: 500;
+}
+@media only screen and (min-width: 992px) {
+	.forretailers .sec-03-howitworks span {
+		font-size: 38px;
+	}
+}	
+.forretailers .btn-lg {
+  min-width: 325px;
+}
+.link-user-guide {
+	display: block;
+	margin-top: 40px;
+	margin-bottom: 80px;
+	color: #f9b993;
+	font-weight: 500;
+}
+.link-user-guide:hover {
+	color: #f9b993;
+}
+.link-user-guide .fa {
+	margin-left: 7px;
+}
+@media only screen and (min-width: 992px) {
+	.link-user-guide {
+		font-size: 22px;
+	}
+}
