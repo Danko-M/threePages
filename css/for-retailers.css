@@ -72,12 +72,12 @@
 }
 @media only screen and (min-width: 768px) {
 	.sec-02-forretailers .media {
-		min-height: 160px;
+		min-height: 190px;
 	}
 }
 @media only screen and (min-width: 992px) {
 	.sec-02-forretailers .media {
-		min-height: 135px;
+		min-height: 160px;
 	}
 }
 .sec-02-forretailers .media-body {
