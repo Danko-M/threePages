@@ -126,13 +126,18 @@
 }
 .box-06 {
 	position: relative;
-	margin-top: 150px;
+	margin-top: 40px;
 	margin-bottom: 60px;
 	margin-left: 50%;
 }
 @media only screen and (min-width: 992px) {
 	.box-06 {	
-		margin-top: 175px;
+		margin-top: 65px;
+	}
+}
+@media only screen and (min-width: 1200px) {
+	.box-06 {	
+		margin-top: 90px;
 	}
 }
 .box-06:before,
