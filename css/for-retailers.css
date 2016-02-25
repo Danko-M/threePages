@@ -209,9 +209,15 @@
 .link-user-guide {
 	display: block;
 	margin-top: 40px;
+	margin-bottom: 80px;
 	color: #f9b993;
 	font-weight: 500;
 }
 .link-user-guide:hover {
 	color: #f9b993;
+}
+@media only screen and (min-width: 992px) {
+	.link-user-guide {
+		font-size: 22px;
+	}
 }
