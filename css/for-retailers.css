@@ -187,11 +187,31 @@
 	background-size: inherit;
 }
 
-
-
 /*********************************************************************************************
 	 - SECTION
 *********************************************************************************************/
 .forretailers .sec-03-howitworks {
 	border-bottom: 8px solid #fac7a9;
+}
+.forretailers .sec-03-howitworks span {
+	display: block;
+	margin-bottom: 60px;
+	font-weight: 500;
+}
+@media only screen and (min-width: 992px) {
+	.forretailers .sec-03-howitworks span {
+		font-size: 38px;
+	}
+}	
+.forretailers .btn-lg {
+  min-width: 325px;
+}
+.link-user-guide {
+	display: block;
+	margin-top: 40px;
+	color: #f9b993;
+	font-weight: 500;
+}
+.link-user-guide:hover {
+	color: #f9b993;
 }
