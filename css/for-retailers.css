@@ -196,6 +196,7 @@
 .forretailers .sec-03-howitworks span {
 	display: block;
 	margin-bottom: 60px;
+	font-size: 30px;
 	font-weight: 500;
 }
 @media only screen and (min-width: 992px) {
