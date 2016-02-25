@@ -70,6 +70,19 @@
 		z-index: -1;
 	}
 }
+@media only screen and (min-width: 768px) {
+	.sec-02-forretailers .media {
+		min-height: 160px;
+	}
+}
+@media only screen and (min-width: 992px) {
+	.sec-02-forretailers .media {
+		min-height: 135px;
+	}
+}
+.sec-02-forretailers .media-body {
+	padding-left: 30px;
+}
 .sec-02-forretailers h3 {
 	position: relative;
 }
@@ -118,7 +131,7 @@
 }
 @media only screen and (min-width: 992px) {
 	.box-06 {	
-		margin-top: 180px;
+		margin-top: 175px;
 	}
 }
 .box-06:before,
@@ -129,7 +142,7 @@
 	background-image: url(../img/sprites.png);
 }
 .box-06:before {
-  top: -270px;
+  top: -265px;
   left: 15px;
   width: 190px;
   height: 280px;
