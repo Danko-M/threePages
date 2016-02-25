@@ -166,6 +166,9 @@
   margin-left: 20px;
   background-position: -450px -60px;
 }
+.sec-03-forretailers .visible-xs-block {
+	padding-bottom: 60px;
+}
 @media only screen and (min-width: 768px) {
 	.ico-07 {
   	display: inline-block;
