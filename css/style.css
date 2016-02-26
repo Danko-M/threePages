@@ -1092,7 +1092,6 @@ h3 {
 /*********************************************************************************************
 	HOW IT WORKS: RETAILERS - SECTION
 *********************************************************************************************/
-
 .box-05,
 .box-06,
 .box-07 {
@@ -1100,18 +1099,18 @@ h3 {
 }
 .box-06 {
 	position: relative;
-	margin-top: 40px;
+	margin-top: 30px;
 	margin-bottom: 60px;
 	margin-left: 50%;
 }
 @media only screen and (min-width: 992px) {
 	.box-06 {	
-		margin-top: 65px;
+		margin-top: 55px;
 	}
 }
 @media only screen and (min-width: 1200px) {
 	.box-06 {	
-		margin-top: 90px;
+		margin-top: 85px;
 	}
 }
 .box-06:before,
@@ -1122,7 +1121,7 @@ h3 {
 	background-image: url(../img/sprites.png);
 }
 .box-06:before {
-  top: -265px;
+  top: -260px;
   left: 15px;
   width: 190px;
   height: 280px;
@@ -1152,6 +1151,9 @@ h3 {
 	.sec-03-forretailers {
 		padding-bottom: 120px;
 		background-color: #f7f7f7;
+	}
+	.sec-03-forretailers h4 {
+		font-size: 26px;
 	}
 }
 
