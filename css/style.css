@@ -1047,12 +1047,20 @@ h3 {
 }
 @media only screen and (min-width: 768px) {
 	.sec-02-forretailers .media {
-		min-height: 190px;
+		min-height: 230px;
+	}
+	.sec-02-forretailers h4 {
+		font-size: 26px;
 	}
 }
 @media only screen and (min-width: 992px) {
 	.sec-02-forretailers .media {
-		min-height: 160px;
+		min-height: 170px;
+	}
+}
+@media only screen and (min-width: 1200px) {
+	.sec-02-forretailers .media {
+		min-height: 145px;
 	}
 }
 .sec-02-forretailers .media-body {
